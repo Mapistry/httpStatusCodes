@@ -1,0 +1,24 @@
+{
+  "name": "httpStatusCodes",
+  "version": "0.0.0",
+  "description": "List of HTTP status codes used by Mapistry",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Mapistry/httpStatusCodes.git"
+  },
+  "keywords": [
+    "http",
+    "status",
+    "codes"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Mapistry/httpStatusCodes/issues"
+  },
+  "homepage": "https://github.com/Mapistry/httpStatusCodes"
+}
