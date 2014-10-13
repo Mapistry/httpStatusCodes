@@ -13,16 +13,6 @@ codes.SUCCESS = 200;
 codes.INVALID_REQUEST = 400;
 
 /**
- * Used for missing query params in the URL
- */
-codes.MISSING_QUERY_PARAM = 422;
-
-/**
- * Used most often for missing data in a POST, PUT or PATCH request
- */
-codes.MISSING_DATA = 422;
-
-/**
  * Returned when a request is made by someone we don't recognize at all
  * (ie, invalid or no credentials offered alongside the request)
  */
@@ -32,6 +22,16 @@ codes.INVALID_CREDENTIALS = 401;
  * Returned when a known user is trying to access something that doesn't belong to them
  */
 codes.UNAUTHORIZED_REQUEST = 403;
+
+/**
+ * Used for missing query params in the URL
+ */
+codes.MISSING_QUERY_PARAM = 422;
+
+/**
+ * Used most often for missing data in a POST, PUT or PATCH request
+ */
+codes.MISSING_DATA = 422;
 
 /**
  * This is an unexpected error that should be resolved soon.  A backoff
