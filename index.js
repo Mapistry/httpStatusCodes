@@ -34,6 +34,11 @@ codes.MISSING_QUERY_PARAM = 422;
 codes.MISSING_DATA = 422;
 
 /**
+ * Used when data doesn't validate for some reason
+ */
+codes.INVALID_DATA = 422;
+
+/**
  * This is an unexpected error that should be resolved soon.  A backoff
  * retry approach is usually a good way to handle 500's.
  */
