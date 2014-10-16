@@ -7,6 +7,11 @@ codes.OK = 200;
 codes.SUCCESS = 200;
 
 /**
+ * Used when a resource was created
+ */
+codes.CREATED = 201;
+
+/**
  * Returned when a request is invalid.  This is a protocol-level error, not an
  * application level error.  Eg, HTTP headers were missing
  */
