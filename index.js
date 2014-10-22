@@ -12,6 +12,11 @@ codes.SUCCESS = 200;
 codes.CREATED = 201;
 
 /**
+ * Use this to redirect to a temporary URI, such that the browser will continue to request the original
+ */
+codes.TEMPORARY_REDIRECT = 302;
+
+/**
  * Returned when a request is invalid.  This is a protocol-level error, not an
  * application level error.  Eg, HTTP headers were missing
  */
