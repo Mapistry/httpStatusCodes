@@ -34,6 +34,11 @@ codes.INVALID_CREDENTIALS = 401;
 codes.UNAUTHORIZED_REQUEST = 403;
 
 /**
+ * Returned when a page or entity is not found
+ */
+codes.NOT_FOUND = 404;
+
+/**
  * Used for missing query params in the URL.  This is an application-level error.
  */
 codes.MISSING_QUERY_PARAM = 422;

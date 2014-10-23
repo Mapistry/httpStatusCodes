@@ -1,6 +1,6 @@
 {
   "name": "httpStatusCodes",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "List of HTTP status codes used by Mapistry",
   "main": "index.js",
   "scripts": {
