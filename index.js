@@ -59,4 +59,10 @@ codes.INVALID_DATA = 422;
  */
 codes.SERVER_ERROR = 500;
 
+/**
+ * Unimplemented route or unimplemented code path reached. Implies that a new feature in the future could
+ * implement this route or code path.
+ */
+ codes.UNIMPLEMENTED_ERROR = 501;
+
 module.exports = codes;
