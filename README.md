@@ -1,5 +1,13 @@
-####Mapistry's HTTP Status Codes
+This package is now deprecated. HTTP status codes used by Mapistry now live in an enum in [mapistry-shared]([url](https://github.com/Mapistry/mapistry-shared/src/consts)). Replacement is straightforward, and should be done gradually as code using the `httpStatusCodes` package is touched:
 
-This repository exists to document which HTTP status codes we use and the purpose for each.
+```
+// in existing code
+httpCodes = require('httpStatusCodes');
+....
+ret = httpCodes.SUCCESS
 
-At the moment, the code is the best documentation, so head over to the index file to find out more.
+// replace with
+import { HttpStatusCode } from 'mapistry-shared';
+...
+ret = HttpStatusCode.SUCCESS 
+```
